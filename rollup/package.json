@@ -1,0 +1,29 @@
+{
+  "name": "rollup-demo",
+  "version": "1.0.0",
+  "description": "Rollup demo",
+  "private": true,
+  "scripts": {
+    "build": "rollup --config config.js",
+    "test": "npm run build && start-server-and-test 8081 cy:run",
+    "start": "http-server --port 8081",
+    "cy:run": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "~7.12.10",
+    "@babel/preset-env": "~7.13.9",
+    "http-server": "~0.12.3",
+    "rollup": "~2.40.0",
+    "rollup-plugin-babel": "~4.4.0",
+    "rollup-plugin-commonjs": "~10.1.0",
+    "rollup-plugin-node-resolve": "~5.2.0",
+    "cypress": "~6.5.0",
+    "start-server-and-test": "~1.11.7"
+  },
+  "dependencies": {
+    "@ideal-postcodes/address-finder": "latest"
+  }
+}

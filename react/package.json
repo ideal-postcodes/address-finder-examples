@@ -1,0 +1,33 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "Webpack demo",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "test": "npm run build && start-server-and-test 8081 cy:run",
+    "start": "webpack serve --port 8081 --mode development",
+    "cy:run": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@ideal-postcodes/api-fixtures": "^1.2.0",
+    "babel-loader": "^8.2.2",
+    "cypress": "~6.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "start-server-and-test": "~1.11.7",
+    "webpack": "~5.13.0",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@ideal-postcodes/address-finder": "latest",
+    "moment": "^2.29.1"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "Webpack demo",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "test": "npm run build && start-server-and-test 8081 cy:run",
+    "start": "webpack serve --port 8081 --mode development",
+    "cy:run": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@ideal-postcodes/api-fixtures": "^1.2.0",
+    "cypress": "~6.6.0",
+    "start-server-and-test": "~1.12.0",
+    "webpack": "~5.24.2",
+    "webpack-cli": "~4.4.0",
+    "webpack-dev-server": "~3.11.2"
+  },
+  "dependencies": {
+    "@ideal-postcodes/address-finder": "latest"
+  }
+}
