@@ -4,7 +4,7 @@
 
 > Address Finder Examples
 
-This repository contains examples of how to use Address Finder with different JavaScript bundlers.
+This repository contains examples of how to use Address Finder with different JavaScript bundlers and frameworks.
 
 ## Example Setup
 
