@@ -1,6 +1,6 @@
 # React Example
 
-This example deploys Address Finder with React (via webpack + babel)
+This example deploys Address Finder with React (via Webpack + Babel)
 
 ## Use in your app
 
@@ -12,7 +12,7 @@ npm install --save @ideal-postcodes/address-finder
 
 ### Usage
 
-See `src/index.js` for a working example. Given a pre-existing react form, you may take the following steps to integrate Address Finder.
+See `src/index.js` for a working example. Given a pre-existing React form, you may take the following steps to integrate Address Finder.
 
 
 1. Create an `id` to reference your input.
