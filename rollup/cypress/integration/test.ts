@@ -20,7 +20,7 @@ describe("Rollup test", () => {
 
   it("populates address fields", () => {
     cy.wait(2000);
-    cy.get("#input")
+    cy.get("#search")
       .clear({ force: true })
       .type(address.line_1, { force: true });
     cy.wait(2000);
