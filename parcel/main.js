@@ -3,7 +3,7 @@ import { AddressFinder } from "@ideal-postcodes/address-finder";
 window.addEventListener("load", async () => {
   AddressFinder.setup({
     inputField: "#input",
-    apiKey: window.apiKey || "iddqd",
+    apiKey: window.apiKey || "ak_test",
     checkKey: false,
     injectStyle: true,
     outputFields: {

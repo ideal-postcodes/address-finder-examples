@@ -6,4 +6,9 @@ module.exports = {
     path: path.resolve(__dirname, "output"),
     filename: "main.js",
   },
+  devServer: {
+    static: {
+      directory: path.join(__dirname, '/')
+    }
+  }
 };

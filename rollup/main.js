@@ -1,8 +1,8 @@
 import { AddressFinder } from "@ideal-postcodes/address-finder";
 
 AddressFinder.setup({
-  inputField: "#input",
-  apiKey: window.apiKey || "iddqd",
+  inputField: "#search",
+  apiKey: window.apiKey || "ak_test",
   injectStyle: true,
   outputFields: {
     line_1: "#line_1",
